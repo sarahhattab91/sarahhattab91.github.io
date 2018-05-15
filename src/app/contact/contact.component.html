@@ -1,0 +1,21 @@
+<form (ngSubmit)="onSubmit()" #Contact="ngForm">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" placeholder="Your name.." [(ngModel)]="record.fname" name="fname">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" placeholder="Your last name.." [(ngModel)]="record.lname" name="lname">
+
+    <label for="country">Country</label>
+    <select id="country" [(ngModel)]="record.country" name="country">
+    <option value="australia">Australia</option>
+    <option value="canada">Canada</option>
+    <option value="usa">USA</option>
+  </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" [(ngModel)]="record.subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+</form>

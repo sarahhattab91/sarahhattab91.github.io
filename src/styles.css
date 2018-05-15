@@ -1,0 +1,26 @@
+body,
+html {
+    height: 100%;
+}
+
+*::-webkit-scrollbar {
+    background-color: rgba(255, 100, 100, 0.5);
+    width: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(255, 100, 100, 0.8);
+    width: 10px;
+}
+
+router-outlet {
+    display: block;
+    margin-top: 50px;
+}
+
+app-footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}

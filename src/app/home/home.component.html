@@ -1,0 +1,18 @@
+<app-slider></app-slider>
+<div class="con">
+    <div *ngFor="let j of json" class="clo">
+        <a routerLink="/profile/{{j.id}}">
+            <div class="av">
+                <img src="/assets/imgs/bg.png">
+            </div>
+            <div class="info">
+                <span>Price:</span>
+                <span>{{j.price}} $</span>
+            </div>
+            <div class="info">
+                <span>Gender:</span>
+                <span>{{j.gender}}</span>
+            </div>
+        </a>
+    </div>
+</div>

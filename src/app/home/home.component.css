@@ -1,0 +1,32 @@
+.con {
+    border: 1px solid;
+    overflow: hidden;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.clo {
+    width: 200px;
+    overflow: hidden;
+    padding: 4px;
+    margin: 4px;
+    border: 1px solid;
+    border-radius: 2px;
+    float: left;
+    transition: all .3s;
+}
+
+.clo:hover {
+    transform: scale(1.2);
+}
+
+.clo .av img {
+    max-width: 100%;
+    max-height: 90%;
+}
+
+.clo a {
+    color: black;
+    text-decoration: none;
+}
